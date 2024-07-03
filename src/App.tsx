@@ -3,6 +3,7 @@ import { Boxes } from "./components/BackgroundBoxes";
 import { HorizontalScroll } from "./components/horizontal-scroll/HorizontalScroll";
 import ContentComponent from "./components/landing/Content";
 import HeadingComponent from "./components/landing/Heading";
+import StickyScroll from "./components/sticky-scroll/StickyScroll";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <ContentComponent content="Revolutionizing digital transactions, one bit at a time." />
       </div>
       <HorizontalScroll />
+      <StickyScroll />
     </>
   );
 }

@@ -22,7 +22,7 @@ const ContentComponent: FunctionComponent<ContentComponentProps> = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.7 }}
         transition={{ duration: 1, delay: 2.5 }}
-        className="text-lg text-texttertiary z-10"
+        className="text-2xl text-texttertiary z-10"
       >
         Already have an account?
         <button className="text-textprimary">&nbsp;Signin!</button>
