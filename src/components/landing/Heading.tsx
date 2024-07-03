@@ -5,7 +5,7 @@ interface HeadingComponentProps {
   heading: string;
 }
 
-const HeadingComponent: FunctionComponent<HeadingComponentProps> = () => {
+const HeadingComponent: FunctionComponent<HeadingComponentProps> = ({heading}) => {
   return (
     <motion.div
       initial={{ scale: 0, opacity: 0 }}
@@ -13,7 +13,7 @@ const HeadingComponent: FunctionComponent<HeadingComponentProps> = () => {
       transition={{ duration: 1.5 }}
       className="text-9xl py-4 font-medium text-textprimary z-10"
     >
-      BitPay
+      {heading}
     </motion.div>
   );
 };
