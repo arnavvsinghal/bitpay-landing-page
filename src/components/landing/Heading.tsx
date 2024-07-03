@@ -5,7 +5,9 @@ interface HeadingComponentProps {
   heading: string;
 }
 
-const HeadingComponent: FunctionComponent<HeadingComponentProps> = ({heading}) => {
+const HeadingComponent: FunctionComponent<HeadingComponentProps> = ({
+  heading,
+}) => {
   return (
     <motion.div
       initial={{ scale: 0, opacity: 0 }}
