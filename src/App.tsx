@@ -1,11 +1,12 @@
-import './App.css'
+import "./App.css";
+import { Boxes } from "./components/BackgroundBoxes";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold text-red-500 underline">
-    Hello world!
-  </h1>
-  )
+    <div className="h-screen relative w-full overflow-hidden flex flex-col items-center justify-center bg-bgprimary">
+      <Boxes />
+    </div>
+  );
 }
 
-export default App
+export default App;
