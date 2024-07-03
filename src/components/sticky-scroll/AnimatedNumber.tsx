@@ -18,7 +18,7 @@ const AnimatedNumber: FunctionComponent<AnimatedNumberProps> = ({ value }) => {
 
   const spring = useSpring(val, { mass: 0.8, stiffness: 10, damping: 15 });
   const display = useTransform(spring, (current) =>
-    Math.round(current).toLocaleString()
+    Math.round(current).toLocaleString(),
   );
 
   useEffect(() => {
