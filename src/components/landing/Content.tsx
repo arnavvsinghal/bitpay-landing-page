@@ -5,7 +5,9 @@ interface ContentComponentProps {
   content: string;
 }
 
-const ContentComponent: FunctionComponent<ContentComponentProps> = () => {
+const ContentComponent: FunctionComponent<ContentComponentProps> = ({
+  content,
+}) => {
   return (
     <>
       <motion.div
@@ -14,7 +16,7 @@ const ContentComponent: FunctionComponent<ContentComponentProps> = () => {
         transition={{ duration: 1, delay: 1.5 }}
         className="text-3xl pt-4 pb-1 font-normal text-texttertiary z-10"
       >
-        Revolutionizing digital transactions, one bit at a time.
+        {content}
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
