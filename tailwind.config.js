@@ -5,6 +5,9 @@ export default {
     extend: {
       colors: {
         bgprimary: "hsl(0, 0%, 10%)",
+        textprimary: "hsl(0, 0%, 100%);",
+        textsecondary: "hsla(0, 0%, 100%, 0.9)",
+        texttertiary: "hsla(0, 0%, 100%, 0.7)",
       },
     },
   },
