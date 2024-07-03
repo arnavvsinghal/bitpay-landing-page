@@ -20,7 +20,7 @@ const HorizontalScrollImage: FunctionComponent<HorizontalScrollImageProps> = ({
   src,
   isInView,
 }) => {
-  if (src == 0) {
+  if (src === 0) {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const HorizontalScrollImage: FunctionComponent<HorizontalScrollImageProps> = ({
         />
       </svg>
     );
-  } else if (src == 1) {
+  } else if (src === 1) {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const HorizontalScrollImage: FunctionComponent<HorizontalScrollImageProps> = ({
         />
       </svg>
     );
-  } else {
+  } 
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,6 @@ const HorizontalScrollImage: FunctionComponent<HorizontalScrollImageProps> = ({
         />
       </svg>
     );
-  }
 };
 
 export default HorizontalScrollImage;
