@@ -21,6 +21,10 @@ BitPay is built using the following technologies:
 BitPay is deployed using the following technologies:
 - [Vercel](https://vercel.com/) - For frontend 
 
+##### Run locally using docker:- 
+```
+docker run -p 3000:3000 arniedev/bitpay-landing-page
+```
 ## Support
 
 Don't forget to leave a star ⭐️.
