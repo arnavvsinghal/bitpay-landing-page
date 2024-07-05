@@ -1,6 +1,7 @@
 > [!IMPORTANT]  
 > This is the landing page for BitPay.
 
+https://github.com/arnavvsinghal/bitpay-landing-page/assets/94188860/7c1795fb-25dd-4b46-a185-fcd146c7f40e
 
 # What is BitPay?
 
