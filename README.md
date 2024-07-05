@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+> [!IMPORTANT]  
+> This is the landing page for BitPay.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# What is BitPay?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Your new wallet is right here! Introducing BitPay your new way of making secure payments.
 
-## Expanding the ESLint configuration
+Here is where you can find the website :- https://bitpay-landing-page.vercel.app/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+BitPay is built using the following technologies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [React](https://react.dev/) - a library for web and native user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - a utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/introduction/) - a motion library for React
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Deployment Technologies
+
+BitPay is deployed using the following technologies:
+- [Vercel](https://vercel.com/) - For frontend 
+
+## Support
+
+Don't forget to leave a star ⭐️.
+Also, if you experience or have been made aware of any unexpected behaviour, please raise an issue.
